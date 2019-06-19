@@ -1,17 +1,20 @@
 import React from 'react';
+import "./Todo.css";
 
-
-export class Todo extends React.Component{
-    constructor(props){
+export class Todo extends React.Component {
+    constructor(props) {
         super(props);
-        const{task}=props;
+
+        const { task } = props;
+
         this.state = {
-           task: task || {}
+            task: task || {}
         };
-        }
-        render(){
-            const {task} = this.state;
-            return  <li >{task.text}</li>
-        
-        }
     }
+
+    render() {
+        const { task } = this.state;
+
+        return <li className="todo">{task.text}</li>;
+    }
+}

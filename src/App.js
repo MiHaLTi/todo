@@ -11,12 +11,15 @@ class App extends React.Component{
 render() {
   const tasks =[
     {
+      id:1,
       text: 'Помыть посуду '
     },
     {
+      id:3,
       text: 'Помыть кошку'
     },
     {
+      id:4,
       text: 'Погулять с сестрой'
     }
   ]
