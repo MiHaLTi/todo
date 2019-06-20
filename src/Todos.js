@@ -81,7 +81,7 @@ export class Todos extends React.Component {
                 },
                 ...this.state.tasks
             ],
-            newTaskText: ''
+            newTaskText: '' 
         });
     }
 
