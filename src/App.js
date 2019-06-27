@@ -25,6 +25,12 @@ render() {
   ]
   return (
     <div >
+      <div className="menu">
+                  <h1>Todo</h1>
+                  <div className="sep"></div>
+                  <a href="/">Главная</a>
+                  <a href="#">О проге</a>
+                </div>
     <Todos tasks={tasks}></Todos>
     </div>
   );
